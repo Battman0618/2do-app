@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react';
-import { Card } from '../Components/Card/card';
+import { Card } from '../Card/card';
 
 export const TodoPage = ()=> {
 
@@ -15,7 +15,8 @@ export const TodoPage = ()=> {
 
   return(
     <>
-      <card/>
+      <Card/>
     </>
   )
 }
+
